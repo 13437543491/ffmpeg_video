@@ -32,11 +32,7 @@ public class MainActivity extends Activity {
         findViewById(R.id.btn_start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                video.start("/storage/emulated/0/1111.mp4");
-//                video.start("/storage/emulated/0/2222.mp4");
-//                video.start("rtmp://ns8.indexforce.com/home/mystream");
-//                video.start("https://cn-sxty-cu-03-03.bilivideo.com/upgcxcode/85/41/794214185/794214185_da2-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1703094199&gen=playurlv2&os=bcache&oi=2018887345&trid=0000df10c6e5406e4980812895fc110986c8h&mid=339709080&platform=html5&upsig=8570ddf1041bf988503c40acce9ebb3f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&cdnid=71403&bvc=vod&nettype=0&f=h_0_0&bw=36180&logo=80000000");
-//                video.start("http://vjs.zencdn.net/v/oceans.mp4");
+                video.start("http://video19.ifeng.com/video09/2019/09/17/p24510076-102-009-123825.mp4?reqtype=tsl&vkey=uT%2FAgfr2R0wz548u572M0icOGveiZRi70GgFgO%2Fs%2F9sTZzclBLOsk0bcB4ndENEHQCJnFZPpV1uwALuJhsiNR7pgZLmgCOJIu04fZjcJ7VPPotv6Dtmv1tTT6ZQqCsIu%2F6%2Bn3cOlfMFrGxJEHQCHt1A6mgPCkDREdRGnaQBvJyOmAXVWLyiznnXDPNqrVEYWdsYBsVFqo1xR8IOkVf59UQ%3D%3D");
             }
         });
 
@@ -44,13 +40,6 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 video.pause();
-            }
-        });
-
-        findViewById(R.id.btn_stop).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                video.stop();
             }
         });
 
